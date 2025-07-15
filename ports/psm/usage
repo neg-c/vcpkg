@@ -1,0 +1,4 @@
+psm provides CMake targets:
+
+find_package(psm CONFIG REQUIRED)
+target_link_libraries(main PRIVATE psm::psm)
