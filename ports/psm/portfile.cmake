@@ -11,7 +11,7 @@ vcpkg_from_github(
   main)
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}" OPTIONS -DBUILD_PSM_CLI=OFF
-                      -DBUILD_PSM_GUI=OFF)
+                      -DBUILD_PSM_GUI=OFF -DBUILD_TESTING=OFF)
 
 vcpkg_cmake_install()
 
